@@ -1,0 +1,11 @@
+.service {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2S ease;
+}
+
+.service:hover {
+    background-color: rgb(230, 230, 230);
+}
