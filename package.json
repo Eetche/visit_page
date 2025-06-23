@@ -11,6 +11,7 @@
   "dependencies": {
     "@vkontakte/vk-bridge": "^2.15.7",
     "next": "15.3.3",
+    "nodemon": "^3.1.10",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
