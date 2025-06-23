@@ -4,7 +4,7 @@ import css from "./header.module.css";
 
 import Image from "next/image";
 
-import phoneSvg from "../static/phone.svg"
+import phoneSvg from "../public/phone.svg"
 
 export default function Header() {
   const phoneNumber = "+7 (900) 076-44-38";

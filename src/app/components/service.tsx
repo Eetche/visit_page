@@ -16,7 +16,8 @@ export default function Service(props : PropsType) {
             <p>{props.name}</p>
             <p>{props.price}</p>
             <p>{props.description}</p>
-            <Image src={props.image} alt="image.jpg" width={400} height={250}></Image>
+            <Image src={props.image} alt="image.jpg" width={325} height={225}></Image>
+            <button className={css.info}>Подробнее</button>
         </div>
     )
 }
