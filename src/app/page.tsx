@@ -9,8 +9,6 @@ import About from "./components/about"
 import Image from "next/image";
 // components
 
-import Video from "next-video"
-
 import staticFiles from "./components/importStatic";
 
 export default function Home() {
@@ -19,7 +17,7 @@ export default function Home() {
       <Header />
       <About/>
       <div className={styles.clips}>
-        <Video src={staticFiles.videos[0]} className={styles.clip} width={400} height={500}></Video>
+        <iframe src="https://vk.com/video_ext.php?oid=-196122987&id=456239179&hash=9059459eb2544a67" height={400} frameBorder="0" allowFullScreen={true} allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
         <div className={styles.servicesSection}>
         <h1 className={styles.servicesTitle}>Обзор услуг</h1>
